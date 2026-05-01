@@ -3,28 +3,24 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    gap: 10,
-    marginTop: 10,
+    gap: 12, 
+    marginTop: 8,
   },
   button: {
     backgroundColor: '#007AFF', 
-    paddingVertical: 10,
-    paddingHorizontal: 15,
-    borderRadius: 8,
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    borderRadius: 10,
     alignItems: 'center',
     justifyContent: 'center',
-    elevation: 2, 
-    shadowColor: '#000', 
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
+    flex: 1, 
   },
   buttonDelete: {
-    backgroundColor: '#FF3B30',
+    backgroundColor: '#FF3B30', 
   },
   text: {
-    color: '#FFFFFF', 
+    color: '#FFFFFF',
+    fontSize: 15,
     fontWeight: '600',
-    fontSize: 14,
   },
 });
