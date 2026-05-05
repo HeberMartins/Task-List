@@ -50,4 +50,17 @@ export const Styles = StyleSheet.create({
     marginHorizontal: 10,
     marginBottom: 20,     
   },
+  header: {
+    paddingVertical: 20,
+    paddingHorizontal: 20,
+    backgroundColor: '#f8f9fa', 
+    borderBottomWidth: 1,
+    borderBottomColor: '#ececec',
+    marginBottom: 10,
+  },
+  counterText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#333',
+  }
 });
